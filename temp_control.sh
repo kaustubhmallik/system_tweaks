@@ -1,5 +1,8 @@
 #!/bin/bash
 
+## First, follow steps described in accepted answer on https://askubuntu.com/questions/15832/how-do-i-get-the-cpu-temperature
+## then, use this as script as a cron job. You may have to change the fan file path depending on your system.
+
 FAN_FILE_PATH="/sys/devices/platform/applesmc.768/fan1_min"
 CRITICAL_TEMP=90
 HIGH_TEMP=80
